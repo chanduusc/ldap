@@ -1,0 +1,7 @@
+version: "3.0"  # optional since v1.27.0
+  jndi:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "1389:1389"
